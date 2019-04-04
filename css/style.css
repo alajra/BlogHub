@@ -1,0 +1,205 @@
+@font-face {
+	font-family:Raleway;
+	src:url(fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+	font-family: Raleway;
+  font-weight: bold;
+	src:url(fonts/Raleway-Bold.ttf);
+}
+
+body {
+    font-family: Raleway;
+    font-size: 18px;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 80%;
+  min-width: 1000px;
+
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.img-resizer {
+	text-align: center;
+  width: 99%;
+  height: 300px;
+  overflow: hidden;
+	border: 1px solid #000;
+}
+.img-resizer img {
+	margin-top: -100px;
+	margin: 0 auto;
+	min-height: 300px;
+}
+
+nav {
+ border-bottom: 4px solid #F7F7F7;
+  text-align: center;
+}
+.home-btn {
+  float: left;
+}
+.lgn-btn {
+  margin-left: 20px;
+  float: right;
+}
+ .home-btn, .lgn-btn {
+   display: block;
+   line-height: 10;
+
+ }
+
+ .lgn-btn img{
+    margin-top: 70px;
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+ }
+
+ .main-title {
+   width: 100%;
+   padding: 70px 0;
+ }
+
+.main-title h3, p{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.main-title h3{
+  margin-right: 20px;
+  padding-right: 10px;
+  border-right: 1px solid #000;
+}
+
+.main-add-post-btn {
+  display: block;
+  float: right;
+}
+
+.profile-info {
+  margin: 30px 0;
+}
+
+.img-resizer-profile {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 20px 0;
+  float: left;
+  display: block;
+}
+
+.img-resizer-profile img {
+	/* min-width: 250px; */
+	min-height: 250px;
+	/* max-width: 500px; */
+	max-height: 250px;
+	margin-left: -20px;
+	/* margin-top: -20px; */
+}
+
+.profile-edit-img {
+  margin: 20px 0;
+  float:left;
+  display: block;
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+}
+
+.profile-img-upload {
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.errors{
+  color: red;
+
+}
+
+.profile-info div {
+  float:left;
+  margin-left: 30px;
+}
+
+.edit-profile-btn {
+  float: right;
+  line-height: 10;
+}
+
+.posts-block {
+  margin-bottom: 200px;
+}
+.post-block {
+  margin-bottom: 70px;
+  overflow: hidden;
+  display: block;
+}
+.post-view {
+  margin-bottom: 400px;
+
+}
+.post-actions {
+  float : right;
+  line-height: 6;
+}
+
+.post-actions a {
+  margin-left: 20px;
+}
+
+.post-meta {
+  float: left;
+}
+
+.post-content {
+  font-family: arial;
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+.form {
+  width: 500px;
+  height: 40px;
+  /*margin: 20px 0;*/
+}
+
+#content, #bio {
+    width: 800px;
+    height: 400px;
+}
+
+input, label {
+  margin: 20px 0;
+  display: block;
+}
+
+form {
+  margin-bottom: 300px;
+}
+
+
+input[type="submit"] {
+  margin-top: 40px;
+  font-size: 15px;
+  font-family: Raleway;
+  color: white;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  background-color: #389ae5;
+  border: none;
+  border-radius: 5px;
+}

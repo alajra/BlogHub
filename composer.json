@@ -1,0 +1,15 @@
+{
+    "name": "user/blog-hub",
+    "require": {
+        "aws/aws-sdk-php": "^3.81"
+    },
+    "require-dev": {
+        "slim/pdo": "^1.10"
+    },
+    "authors": [
+        {
+            "name": "alajra",
+            "email": "gxa.aj.911@gmail.com"
+        }
+    ]
+}
